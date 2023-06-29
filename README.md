@@ -2,7 +2,8 @@
  
 # CUY-DDOS
  <p>
- <img src="https://imgcloud.s3.us-east-1.wasabisys.com/FNAl9XgYfr.png" width="90px"/> &nbsp;
+ <img src="https://i.ibb.co/cYTtTjk/photo-5821327127889428260-c.jpg" width="90px"/> &nbsp;
+ 
  
 </p>
  DDoS Script (DDoS Panel) with Multiple Bypass<br>( Cloudflare UAM,CAPTCHA,BFM,NOSEC / DDoS Guard / Google Shield / V Shield / Amazon / etc.. )<br/><br/>
