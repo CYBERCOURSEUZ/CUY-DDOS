@@ -1,6 +1,6 @@
 <div align=center>
  
-# Noisy DDoS
+# CUY-DDOS
  <p>
  <img src="https://imgcloud.s3.us-east-1.wasabisys.com/FNAl9XgYfr.png" width="90px"/> &nbsp;
  
@@ -52,7 +52,7 @@
 ```sh
 You must use Python 3.9 or higher
 
-git clone https://github.com/ismoiloffS/DDoS.git
+git clone https://github.com/CYBERCOURSEUZ/CUY-DDOS
 
 Install Python3 modules
  - pip3 install -r requirements.txt  or  pip install -r requirements.txt
