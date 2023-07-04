@@ -1,12 +1,5 @@
 import os
 
-print("""
-\x1b[38;2;255;20;147m╦╔═ ╔═╗ ╦═╗ ╔╦╗ ╔═╗
-\x1b[38;2;255;20;147m╠╩╗ ╠═╣ ╠╦╝ ║║║ ╠═╣
-\x1b[38;2;255;20;147m╩ ╩ ╩ ╩ ╩╚═ ╩ ╩ ╩ ╩\x1b[38;2;0;255;58m>(setup)
-""") 
-os.system("chmod +x resources/apache.sh")
-os.system("bash resources/apache.sh &")
 print("""[0] pip\n[1] pip3\nWhich one do you use?""")
 
 c = input(">>>: ")
